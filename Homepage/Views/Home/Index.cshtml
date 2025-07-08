@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<!-- 1st Section -->
+<div class="container my-5">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <h1 class="mb-3">Welcome to District 49 Children’s Home</h1>
+            <p>
+                Nestled in the heart of KwaZulu-Natal, District 49 is more than just a children’s home—it’s a safe haven and a family for children in need. Our mission is to provide every child with a nurturing environment, opportunities to learn and grow, and the loving support they deserve. At District 49, we believe every child should feel valued, empowered, and hopeful about their future. Join us as we build brighter tomorrows, one child at a time.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <!-- Carousel -->
+            <div id="homeCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-inner rounded-4 shadow">
+                    <div class="carousel-item active">
+                        <img src="~/images/carousel1.jpg" class="d-block w-100" alt="Image 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="~/images/carousel2.jpg" class="d-block w-100" alt="Image 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="~/images/carousel3.jpg" class="d-block w-100" alt="Image 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="~/images/carousel4.jpg" class="d-block w-100" alt="Image 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="~/images/carousel5.jpg" class="d-block w-100" alt="Image 5">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators mt-3">
+                    <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="4"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 2nd Section -->
+<div class="container my-5">
+    <div class="row align-items-center">
+        <div class="col-md-6 d-flex justify-content-center">
+            <img src="~/images/cuteheart.png" class="img-fluid rounded-4 shadow" alt="Children in community" style="width:200px; height:auto;">
+        </div>
+        <div class="col-md-6">
+            <h2>We Believe</h2>
+            <p>
+                Children and young people belong in their communities with family whenever possible, not in institutions. We meet families where they are—whether in community centers, schools, or homes. <a asp-controller="Home" asp-action="WhatWeDo">Read more about what we do.</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<!-- 3rd Section -->
+<div class="container my-5 text-center">
+    <h2>Who We Are</h2>
+    <p class="mx-auto" style="max-width: 700px;">
+        The Children’s Village is dedicated to the well-being of children, teens, and families. We advocate for, strengthen, and reunite families while fostering community partnerships, creating innovative programs, and connecting individuals to essential resources that promote basic needs and human rights.
+    </p>
+</div>
+
+<!-- Last Section: Login + Socials -->
+<div class="container my-5 text-center">
+    <a class="btn btn-secondary btn-lg mb-3" asp-controller="Account" asp-action="Login">Employee Login</a>
+    <div class="d-flex justify-content-center gap-4">
+        <a href="https://facebook.com/yourpage" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="https://instagram.com/yourpage" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="https://youtube.com/yourchannel" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+    </div>
+</div>
