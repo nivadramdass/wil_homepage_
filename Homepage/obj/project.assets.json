@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nivadramdass/Documents/2025/wil/homepage/wil_homepage/Homepage/Homepage.csproj",
+      "projectUniqueName": "/Users/nivadramdass/Documents/2025/wil/homepage/wil_homepage_/Homepage/Homepage.csproj",
       "projectName": "Homepage",
-      "projectPath": "/Users/nivadramdass/Documents/2025/wil/homepage/wil_homepage/Homepage/Homepage.csproj",
+      "projectPath": "/Users/nivadramdass/Documents/2025/wil/homepage/wil_homepage_/Homepage/Homepage.csproj",
       "packagesPath": "/Users/nivadramdass/.nuget/packages/",
-      "outputPath": "/Users/nivadramdass/Documents/2025/wil/homepage/wil_homepage/Homepage/obj/",
+      "outputPath": "/Users/nivadramdass/Documents/2025/wil/homepage/wil_homepage_/Homepage/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/nivadramdass/.nuget/NuGet/NuGet.Config"
