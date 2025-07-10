@@ -24,7 +24,7 @@ a[b-srwgomaw9q] {
 }
 
 .border-top[b-srwgomaw9q] {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #ffffff;
 }
 .border-bottom[b-srwgomaw9q] {
   border-bottom: 1px solid #e5e5e5;
@@ -62,4 +62,8 @@ button.accept-policy[b-srwgomaw9q] {
 .navbar-nav .nav-link[b-srwgomaw9q] {
   font-family: "Over the Rainbow", cursive !important;
   color: #EF6278 !important;
+  box-shadow: none !important;
+    border: none !important;
+    background-image: none !important;
+    background-color: transparent !important;
 }

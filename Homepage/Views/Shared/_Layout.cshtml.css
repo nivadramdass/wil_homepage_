@@ -24,7 +24,7 @@ a {
 }
 
 .border-top {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #ffffff;
 }
 .border-bottom {
   border-bottom: 1px solid #e5e5e5;
@@ -62,4 +62,8 @@ button.accept-policy {
 .navbar-nav .nav-link {
   font-family: "Over the Rainbow", cursive !important;
   color: #EF6278 !important;
+  box-shadow: none !important;
+    border: none !important;
+    background-image: none !important;
+    background-color: transparent !important;
 }
