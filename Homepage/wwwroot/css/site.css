@@ -22,7 +22,15 @@ body {
 }
 
 .navbar .navbar-nav .nav-link {
-    font-family: "Over the Rainbow", cursive !important;
-    color: #EF6278 !important;
-    background-color: #ffff !important;
+  font-family: "Over the Rainbow", cursive !important;
+  color: #EF6278 !important;
+  background-color: #ffff !important;
+}
+
+.navbar .navbar-nav .btn-primary:hover,
+.navbar .navbar-nav .btn-primary:focus,
+.navbar .navbar-nav .btn-primary:active {
+    background-color: #0d6efd !important;  /* Bootstrap default blue, or pick your own */
+    border-color: #0d6efd !important;
+    color: #fff !important;
 }
